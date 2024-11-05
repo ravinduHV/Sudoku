@@ -332,6 +332,7 @@ public class mainWindow extends JFrame {
     public void print2DCells(){
         for(int i=0; i<9; i++){
             for(int j=0; j<9; j++){
+                System.out.println("");
                 System.out.print(Cells.get(i).get(j).getValue() + " ");
             }
             System.out.println();

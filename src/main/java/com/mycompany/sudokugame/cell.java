@@ -122,7 +122,7 @@ public class cell{
     }
 
     public String toString(){
-        return "X: " + this.X + " Y: " + this.Y + " Value: " + this.value + " TempValue: " + this.TempValue;
+        return "X: " + this.X + " Y: " + this.Y + " Value: " + this.value + " TempValue: " + this.TempValue +".";
     }
 
     public int validate(int i){
